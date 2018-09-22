@@ -1,0 +1,204 @@
+body {
+    margin: 0 auto;
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:.9em;
+}
+
+nav {
+    padding-top: 21px;
+    padding-bottom:21px;
+    float:right;
+}
+
+a {
+    text-decoration:none;
+    color:#777777;
+}
+
+h1 {
+    font-family:'Georgia', Times, Times New Roman, serif; 
+    font-size:2em;
+    color:#4aaaa5;
+    padding-left:13px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+h3 {
+    margin-left:13px;
+    margin-bottom:10px;
+    margin-top:20px;
+}
+
+h4 {
+    font-family:'Georgia', Times, Times New Roman, serif; 
+    color:#ffffff;
+    background-color:#4aaaa5;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+hr {
+    margin-left:13px;
+    margin-right:13px;
+}
+
+p {
+    line-height:175%;
+    padding:7px 30px 30px 30px;
+}
+#logo {
+    background-color:#4aaaa5;
+    font-size:2em;
+    float:left;
+    padding:13px 13px 16px 13px;
+    color:#ffffff;
+}
+
+#masterheader {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    height:58px;
+    margin: 0 auto;
+}
+
+#content-container {
+    background-image: url("../images/round.png");
+    padding-top: 30px;
+    padding-bottom: 93px;
+}
+.main-section {
+    background-color:#ffffff;
+    border-color:#dddddd;
+    width:960px;
+    margin: 0 auto;
+    padding-bottom:5px;
+}
+.me {
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color:#666666;
+    color:#cccccc;
+    padding: 35px 0px 5px 0px;
+    border-top: 5px;
+    border-style: solid;
+    border-color:#4aaaa5;
+    font-size:.5em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index:1000;
+}
+
+.container {
+    margin: 0 auto;
+    width:960px;
+}
+
+.inputfield {
+    border:1px solid #cccccc;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:5px;
+    margin:3px 13px 3px 13px;
+}
+
+#messagebox {
+    height:110px;
+}
+
+.button {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:13px;
+    background-color:#4aaaa5;
+    padding:5px 10px 5px 10px;
+    width:50px;
+    color:#ffffff;
+}
+
+.portcontainer {
+    position:relative;
+    width:960px;
+}
+
+.portplaceholder {
+    width:275px;
+    z-index:0;
+    left:6px;
+    top:15px;
+    position:relative;
+}
+
+.hangportplaceholder {
+    position:absolute;
+    top:15px;
+    left:6px;
+    z-index:100;
+}
+
+#hangman {
+    top:180px;
+    z-index:1;
+    position:absolute;
+}
+
+.rgbportplaceholder {
+    position:absolute;
+    top:15px;
+    left:325px;
+}
+
+#rpg {
+    top:180px;
+    z-index:1;
+    position:absolute;
+}
+
+.triviaportplaceholder {
+    position:absolute;
+    top:280px;
+    left:6px;
+}
+
+#trivia {
+    top:180px;
+    z-index:1;
+    position:absolute;
+}
+
+.rutgersportplaceholder {
+    position:absolute;
+    top:280px;
+    left:325px;
+}
+
+#rutgers {
+    top:180px;
+    z-index:1;
+    position:absolute;
+}
+
+.rockportplaceholder {
+    position:absolute;
+    top:545px;
+    left:6px;
+}
+
+#rock {
+    top:180px;
+    z-index:1;
+    position:absolute;
+}
+
+#portmain {
+    padding-bottom:840px;
+}
